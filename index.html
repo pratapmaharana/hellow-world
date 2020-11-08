@@ -1,0 +1,123 @@
+<!-- this is docttype,cont+forward slass converts line into comment -->
+<!DOCTYPE html>
+<!--our html code starts here -->
+<html lang="en">
+       <!--our head tag starts here -->
+    <head>
+            <meta charset="UTF-8">
+            <!-- here meta is tag and charset is an attribute -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="desscription" content="this is description">
+    <meta name="keyword" content="html,html practice">
+    <meta name="robot" content="index,follow">
+    <title>this is title</title>
+    <!-- this is how you include external css -->
+    <link rel="stylesheet" href="index.css">
+    <!-- this is how u include external java script -->
+    <script src="index.js"></script>
+</head>
+  <!--our body tag starts here -->
+<body>
+   <h1>Pratap</h1>
+     <h2>pratap</h2>
+     <h3>pratap</h3>
+     <h4>pratap</h4>
+     <h5>Pratap</h5>
+     <h6>pratap</h6>
+     <p>this is a new paragraph</p>
+     <!-- lorem 10 gives random 10 words -->
+     <p>Lorem ipsum dolor sit amet <strong>this is bold</strong> consectetur <em>this is emphasized</em> <b>this is also bold</b> enetur, <i>this is bold italic</i> iure!</p>
+     <!-- p*4 gives 4 paragraph,these are the power of emmit -->
+     <p>1 <br> this is a new line <hr></p>
+     <p>2</p>
+     <p>3</p>
+     <p>4</p>
+     <!-- shift+alt+down arrow for copy line -->
+     <a href="https://google.com"target="_blank">go to google</a><br>
+     <a href="https://facebook.com"target="_blank">go to facebook</a><br>
+     <a href="https://twitter.com"target="_blank">go to twitter</a><br>
+     <!-- image is not present hence alt text is shown -->
+     <img src="pratap.jpg" alt="error loading image">
+     <img src="https://source.unsplash.com/user/erondu/300x200" alt="error">
+     <img src="/image/38191.jpg" class="" alt="error">
+     <ul type="square">
+       <!-- disc,square,circle -->
+       <li>this is first item of my ordered list</li>
+       <li>this is second item of my ordered list</li>
+       <li>this is thisd item of my ordered list</li>
+       <ul>
+         <li>another one</li>
+        </ul>
+     </ul>
+     <ol type="I">
+      <li>this is first item of my ordered list</li>
+      <li>this is second item of my ordered list</li>
+      <li>this is thisd item of my ordered list</li>
+    </ol>
+    <!-- table -->
+    <h3>HTML TABLE</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>NAME</th>
+          <th>ID</th>
+          <th>ROLE</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Pratap</td>
+          <td>30539</td>
+          <td>Apprenticeship</td>
+        </tr>
+        <tr>
+          <td>Kritic</td>
+          <td>30540</td>
+          <td>Apprenticeship</td>
+        </tr>
+        <tr>
+          <td>Rinku</td>
+          <td>30541</td>
+          <td>Apprenticeship</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3>THIS IS FORM</h3>
+    <div><form action="backend.php">
+      <!-- &nbsp is used to add space ,name attribute gives a identification to the backend php -->
+      FIRST NAME:<input type="text" name="my first name"> &nbsp; LAST NAME: <input type="text" name="my last name"></div><br>
+    <!-- if we use label then it selects the button even if we click on the letters -->
+      <div><label for="roll no">ROLL NO:</label>
+      <input type="text" name="my roll no" id="roll no"></div><br> 
+      <div>
+        EMAIL: <input type="email" name="my email" id="">
+      </div><br>
+      <div>
+        <div>DOB: <input type="date" name="my dob" id=""></div>
+      </div><br>
+      <div>
+        MARK: <input type="number" name="my mark" id="">
+      </div><br>
+      <div>
+        ARE YOU ELEGIBLE: <input type="checkbox" name="my checkbox" id="" checked> if you want to make it checked bydefault 
+      </div><br>
+      <div>
+        GENDER: MALE<input type="radio" name="my gender" id=""> FEMAIL<input type="radio" name="my gender" id="">
+      </div><br>
+      <div>
+        WRITE ABOUT YOURSELF <br> <textarea name="my textarea" id="" cols="40" rows="4"></textarea>
+      </div><br>
+      <div>
+        <label for="car">CAR</label>
+        <select name="my car" id="car">
+      <option value="indica">INDICA</option>
+      <option value="swift"selected>SWIFT  </option>
+    </select>
+      </div><br>
+      <div>
+     <input type="submit" value="Submit here"> <input type="reset" value="Reset here">
+   </div>
+      
+</form>
+  </body>
+</html>
